@@ -46,6 +46,7 @@ import qualified TransactionLevelTest
 import qualified TreeTest
 import qualified UniqueTest
 import qualified UpsertTest
+import qualified PersistLiteralTestSQL
 
 type Tuple = (,)
 
@@ -172,5 +173,6 @@ main = do
     EquivalentTypeTestPostgres.specs
     TransactionLevelTest.specsWith db
     JSONTest.specs
+    PersistLiteralTestSQL.specsWith db
     -- FIXME: not used, probably should?
     -- ArrayAggTest.specs db

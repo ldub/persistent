@@ -33,8 +33,10 @@ library
                      MigrationOnlyTest
                      MigrationTest
                      MpsNoPrefixTest
+                     NullableGenerated
                      PersistentTest
                      PersistentTestModels
+                     PersistLiteralTestSQL
                      PersistTestPetType
                      PersistTestPetCollarType
                      PersistUniqueTest
